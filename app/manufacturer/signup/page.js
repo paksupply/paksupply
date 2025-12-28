@@ -8,12 +8,16 @@ export default function ManufacturerSignup() {
   const [error, setError] = useState("");
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    if (!accepted) {
-      setError("You must accept the Privacy Policy and Manufacturer Contract.");
-      return;
-    }
+  if (!accepted) {
+    setError("You must accept the Privacy Policy and Manufacturer Contract.");
+    return;
+  }
+
+  window.location.href = "/manufacturer/pricing";
+};
+
 
     alert("Signup successful. Redirecting to pricing & payment page.");
     // next step: redirect to pricing page
