@@ -15,8 +15,9 @@ export default function ManufacturerSignup() {
     return;
   }
 
-  window.location.href = "/manufacturer/pricing";
+  window.location.replace("/manufacturer/pricing");
 };
+
 
 
     alert("Signup successful. Redirecting to pricing & payment page.");
