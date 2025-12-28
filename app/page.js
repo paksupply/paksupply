@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main style={{ padding: "20px", fontFamily: "Arial" }}>
@@ -25,6 +27,13 @@ export default function Home() {
       <h2>For Shopkeepers</h2>
       <p>
         Browse verified manufacturers and place orders directly on WhatsApp.
+      </p>
+
+      <hr />
+
+      <p>
+        <Link href="/privacy-policy">Privacy Policy</Link> |{" "}
+        <Link href="/manufacturer-contract">Manufacturer Contract</Link>
       </p>
 
       <p style={{ marginTop: "30px", fontSize: "14px", color: "gray" }}>
