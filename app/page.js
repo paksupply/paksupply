@@ -1,16 +1,35 @@
 export default function Home() {
   return (
-    <main style={{ padding: 20, fontFamily: "Arial" }}>
+    <main style={{ padding: "20px", fontFamily: "Arial" }}>
       <h1>PakSupply.pk</h1>
-      <p>B2B FMCG Platform for Pakistan</p>
+
+      <p>
+        Pakistan’s B2B FMCG visibility & order-generation platform.
+      </p>
 
       <ul>
-        <li>Manufacturers</li>
-        <li>Shopkeepers</li>
-        <li>Admin</li>
+        <li>Direct Manufacturer Visibility</li>
+        <li>Israel-Free Product Listings</li>
+        <li>WhatsApp-Based Live Ordering</li>
+        <li>Trusted by Shopkeepers Across Pakistan</li>
       </ul>
 
-      <p>Platform is under construction 🚧</p>
+      <hr />
+
+      <h2>For Manufacturers</h2>
+      <p>
+        List your FMCG products, get visibility, and receive real orders from
+        shopkeepers.
+      </p>
+
+      <h2>For Shopkeepers</h2>
+      <p>
+        Browse verified manufacturers and place orders directly on WhatsApp.
+      </p>
+
+      <p style={{ marginTop: "30px", fontSize: "14px", color: "gray" }}>
+        © PakSupply.pk — Visibility, Trust & Growth
+      </p>
     </main>
   );
 }
